@@ -4,6 +4,7 @@
 #include <string>
 using namespace std;
 
+//Struct to hold response data the function would return in an object
 struct Response {
     int minElement;
     int maxElement;
@@ -35,7 +36,7 @@ Response minMax(int baseArray[], int sizeOfBaseArray)
     }
 }
 
-//Main function
+//Main function to test the minMax function
 int main()
 {
     int arr[] = {12,63,53,78,9,34,66};
